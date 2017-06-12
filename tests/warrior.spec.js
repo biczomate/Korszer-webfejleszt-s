@@ -1,8 +1,8 @@
-const Warrior = require("../warrior");
-const IllegalActionError = require("../illegalaction-error");
-const Sword = require("../sword");
-const Dagger = require("../dagger");
-const Staff = require("../staff");
+const Warrior = require("../src/warrior");
+const IllegalActionError = require("../src/illegalaction-error");
+const Sword = require("../src/sword");
+const Dagger = require("../src/dagger");
+const Staff = require("../src/staff");
 const expect = require('chai').expect;
 
 describe('Warrior', () => {

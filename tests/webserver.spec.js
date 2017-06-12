@@ -1,7 +1,7 @@
-const Staff = require('../staff');
-const Warrior = require('../warrior');
-const Priest = require('../priest');
-const app = require('../app');
+const Staff = require('../src/staff');
+const Warrior = require('../src/warrior');
+const Priest = require('../src/priest');
+const app = require('../src/app');
 const expect = require('chai').expect;
 const supertest = require('supertest');
 

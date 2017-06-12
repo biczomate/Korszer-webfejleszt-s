@@ -1,5 +1,5 @@
-const Warrior = require("../warrior");
-const Battle = require("../battle");
+const Warrior = require("../src/warrior");
+const Battle = require("../src/battle");
 const expect = require('chai').expect;
 
 describe('Battle', () => {
